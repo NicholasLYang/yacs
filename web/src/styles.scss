@@ -8,12 +8,7 @@
 body {
     color: #000;
     font-family: $font;
-    margin: 0;
     font-weight: 300;
-}
-
-#content {
-    padding: 60px 15px 0px 15px;    
 }
 
 .theme-text {
@@ -25,6 +20,13 @@ body {
   font-size: larger;
 }
 
+.container-widthless {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 #loading {
     position:absolute;
     top: 50%;
@@ -34,11 +36,6 @@ body {
        real values (half of the image width and height) here. */
     margin-top: -4.5px;
     margin-left: -62.5px;       
-}
-
-footer {
-    margin: 0px auto;
-    max-width: 950px;
 }
 
 .noselect {
@@ -88,13 +85,8 @@ div.alert {
   border-radius: 0;
 }
 
-// .form-control:focus {
-//   outline: 0 none;
-//   box-shadow: 0 none;
-// }
-
 .dropdown-menu {
-  width: 100% !important;
+  // width: 100% !important;
   left: 0px !important;
   border-radius: 2px;
   margin-top: 0px;

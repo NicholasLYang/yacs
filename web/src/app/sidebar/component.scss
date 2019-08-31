@@ -1,0 +1,20 @@
+@import "../../_vars.scss";
+
+#sidebar {
+  height: 100%;
+  background: none;
+  align-items: left;
+  padding-left: 0px;
+}
+
+@media (min-width: 576px) {
+  #sidebar {
+    border-right: 2px solid #e8e8e8;
+  }
+}
+
+.tabs {
+  width: 100%;
+  font-weight: 400;
+}
+
