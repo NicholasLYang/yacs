@@ -2,6 +2,10 @@
 
 # Ignore bundler config.
 /core/.bundle
+\.#*
+
+# Ignore phantomjs binary
+/core/phantomjs
 
 # Ignore all logfiles and tempfiles.
 /core/log/*

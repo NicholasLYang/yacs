@@ -75,7 +75,7 @@ services:
   nginx:
     image: yacsrcos/yacs-nginx
     ports:
-      - "80:80"
+      - "8001:80"
       - "443:443"
     links:
       - core
